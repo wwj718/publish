@@ -1,7 +1,7 @@
 # publish
 pushlish your site／dir to cloud
 
-之前只支持上传到qiniu.com
+目前只支持上传到qiniu.com
 
 # install
 `pip install publish2cloud`
