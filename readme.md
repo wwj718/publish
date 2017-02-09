@@ -1,8 +1,10 @@
 # publish
-pushlish your site／dir to qiniu
+pushlish your site／dir to cloud
+
+之前只支持上传到qiniu.com
 
 # install
-`pip install publish`
+`pip install publish2cloud`
 
 # config
 默认配置文件为"~/.publish.yml" (自行创建)
