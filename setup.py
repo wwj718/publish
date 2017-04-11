@@ -11,7 +11,7 @@ with open('HISTORY.rst') as history_file:
 
 requirements = [
     "qiniu==7.1.1",
-    "path.py"
+    "path.py==8.1.2"
     # TODO: put package requirements here
 ]
 
