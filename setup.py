@@ -21,7 +21,7 @@ test_requirements = [
 
 setup(
     name='publish2cloud', #publish 被用了
-    version='0.1.0',
+    version='0.1.1',
     description="publish your site to qiniu.com",
     long_description=readme + '\n\n' + history,
     author="wenjiewu",
