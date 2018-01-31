@@ -8,7 +8,7 @@ import yaml
 import argparse
 from qiniu import Auth, put_file, etag, urlsafe_base64_encode,BucketManager,CdnManager
 import qiniu.config
-from path import path # 文档参考# https://pythontips.com/2014/01/23/python-101-writing-a-cleanup-script/
+from path import Path # 文档参考# https://pythontips.com/2014/01/23/python-101-writing-a-cleanup-script/
 
 
 #需要填写你的 Access Key 和 Secret Key
@@ -94,7 +94,7 @@ def main():
     client = QiniuClient(access_key,secret_key,bucket_name,bucket_domain)
     #sys.exit()
 
-    d = path(root_dir)
+    d = Path(root_dir)
     for i in d.walk():
         if i.isfile():
             #只上传文件
